@@ -1,0 +1,112 @@
+body{
+    padding: 5px;
+    /* background-color: red; */
+}
+section
+{
+    /* height: 480px; */
+    /* border: 2px black solid; */
+    padding: 5px;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.half-part
+{
+    flex: 1;
+    /* border: 2px solid green; */
+    /* height: 300px; */
+    margin: 5px;
+}
+.half-part img
+{
+    width: 100%;
+}
+.half-part:first-child
+{
+    margin: 5px;
+}
+h1
+{
+    text-align: center;
+}
+.login_form
+{
+    padding: 10px;
+    /* border: 2px solid red; */
+    /* background-color: red; */
+}
+.login_form input{
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    background: #ffffff;
+    outline: none;
+    transition: border-color 0.5s;
+    text-align: center;
+}
+.login_form button{
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    background: green;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: red; */
+}
+.login_link
+{
+    /* background-color: green; */
+    margin-top: 15px;
+    text-align: center;
+    text-decoration: none;
+    /* border: 2px solid red; */
+}
+.login_link a
+{
+    text-decoration: none;
+}
+
+.input_icons i
+{
+    position: absolute;
+}
+.icon
+{
+    padding: 10px;
+    min-width: 50px;
+    color: green;
+    margin-right: 60px;
+    /* text-align: center; */
+}
+.stay_connect
+{
+    /* border: 2px solid red; */
+    margin-top: 15px;
+    text-align: center;
+    /* display: block; */
+}
+.iconn 
+{
+    margin-top: 0px;
+    font-size: 40px;
+    margin-right: 5px;
+}
+@media (max-width: 700px)
+{
+    .container
+    {
+        flex-direction: column;
+    }
+}
